@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif, tahoma, verdana, 'segoe UI';
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container p{
+    font-size: 2em;
+    text-transform: capitalize;
+    color:darkblue;
+    font-weight: 200px;
+}
+.cells{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 3px;
+    row-gap: 3px;
+    width: 700px;
+}
+.cell{
+    width: 200px;
+    height: 140px;
+    background-color: hsl(180, 51%, 77%);
+    text-align: center;
+    font-size: 6em;
+}
+
+.status-cont{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 120px;
+}
+.status-cont button{
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(90, 53%, 73%);
+}
+.status-cont button:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
